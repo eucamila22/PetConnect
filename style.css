@@ -11,11 +11,21 @@ body{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+
+    background-color: rgba(243, 176, 68, 0.775);
 }
 
 h1{
     margin: 48px 0;
     font-weight: 700;
+    color: rgb(63, 50, 27);
+    
+    position: relative;
+}
+
+span{
+    font-size: 18px;
+    position: relative;
 }
 
 form{
@@ -62,8 +72,9 @@ button{
     width: 312px;
     height: 48px;
 
-    border-radius: 5px;
     background: #2F89FC;
+    border-radius: 5px;
+    border: 1px solid #2F89FC;
     transition: 1s;
 
     cursor: pointer;
@@ -71,6 +82,7 @@ button{
 
 button:hover{
     background-color: #2e61a4;
+    border: 1px solid #2F89FC;
 }
 
 a{
@@ -86,6 +98,8 @@ a:hover{
 
 .have-account{
     margin: 30px 0 0 0;
+    position: relative;
+
 }
 
 .div-line {
@@ -94,9 +108,9 @@ a:hover{
     align-items: center;
     justify-content: center;
     margin: 25px 0;
+    position: relative;
 
     .line{
-        
         width: 135px;
         height: 1px;
         background-color: rgb(157, 155, 155);
@@ -126,12 +140,17 @@ a:hover{
 }
 
 .google{
-    background-color: white;
-    margin-bottom: 24px;
     display: flex;
     justify-content: center;
     align-items:center;
+
+    margin-bottom: 24px;
+
+    background-color: white;
+    border: 1px solid #ffffff;
+
     position: relative;
+
 
     img{
         position: absolute;  
@@ -141,4 +160,5 @@ a:hover{
 
 .google:hover{
     background-color: rgb(230, 241, 129);
+    border: 1px solid rgb(230, 241, 129);
 }
