@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Pet Connect</title>
+  </head>
+  <body>
+    <div>
+      <h1>Signup</h1>
+      <form>
+        <input type="text" id="username" placeholder="Enter your Username" />
+
+        <input type="text" id="email" placeholder="Enter your Email" />
+
+        <input
+          type="tel"
+          maxlength="15"
+          id="phone"
+          placeholder="Enter Your Phone Number"
+        />
+
+        <input
+          type="password"
+          maxlength="8"
+          id="password"
+          placeholder="Enter Your Password"
+        />
+        <div id="icon" onclick="showHide()"></div>
+
+        <button class="singup" type="submit">Signup</button>
+      </form>
+
+      <p class="have-account">
+        Already have an account? <a href="#login">Login</a>
+      </p>
+      <div class="div-line">
+        <div class="line"></div>
+        <p>or</p>
+        <div class="line"></div>
+      </div>
+    </div>
+    <button class="face">
+      <img src="./assets/facebook logo.png" alt="" />Login with Facebook
+    </button>
+    <button class="google">
+      <img src="./assets/google logo.png" alt="" />Login with Google
+    </button>
+  </body>
+  <script src="./script.js"></script>
+</html>

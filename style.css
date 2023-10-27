@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    margin: 48px 0;
+    font-weight: 700;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+input{
+    width: 312px;
+    height: 48px;
+    margin: 12px;
+    padding-left: 10px;
+
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+#icon{
+    height: 15px;
+    width: 15px;
+
+    position: absolute;
+    top: 73%;
+    right: 20px;
+
+    transform: translate(-50%);
+    background: url('./assets/olho(1).png');
+    background-size: cover;
+
+    cursor: pointer;
+}
+
+#icon.hide{
+    background: url('./assets/olho.png');
+    background-size: cover;
+}
+
+button{
+    width: 312px;
+    height: 48px;
+
+    border-radius: 5px;
+    background: #2F89FC;
+    transition: 1s;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2e61a4;
+}
+
+a{
+    text-decoration: none;
+    color: #2F89FC;
+    font-weight: 600;
+    transition: 1s;
+}
+
+a:hover{
+    color: #6c2e8b;
+}
+
+.have-account{
+    margin: 30px 0 0 0;
+}
+
+.div-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+
+    .line{
+        
+        width: 135px;
+        height: 1px;
+        background-color: rgb(157, 155, 155);
+    }
+
+    p{
+        margin: 0 10px;
+    }
+}
+
+.singup{
+    color: white;
+}
+
+.face{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    color: white;
+
+    img{
+        position: absolute;  
+        left: 10px;
+    }
+}
+
+.google{
+    background-color: white;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+
+    img{
+        position: absolute;  
+        left: 10px;
+    }
+}
+
+.google:hover{
+    background-color: rgb(230, 241, 129);
+}
